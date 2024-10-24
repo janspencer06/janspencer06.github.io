@@ -83,7 +83,7 @@ footer {
   padding: 10px;
   background-color: #0c0c0c;
   color:white ;
-  position:relative;
+  position:static;
   bottom: 0;
   left: 0;
   right: 0;
