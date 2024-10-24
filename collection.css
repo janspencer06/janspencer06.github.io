@@ -1,0 +1,91 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 10px 20px;
+}
+nav {
+  padding: 20px;
+  position: sticky;
+  top: 102px;
+}
+
+
+nav ul {
+  white-space: nowrap;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  display: inline;
+  margin-left: 20px;
+}
+
+nav ul li a {
+  text-decoration: none   ;
+  color: #333;
+}
+
+.logo {
+  height: 50px;
+}
+.logo {
+  height: 50px;
+}
+ .collection {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+ }
+ 
+ .shoe {
+   width: 800px; /* Adjust based on image size */
+   margin: 20px;
+   text-align: center;
+ }
+ 
+ .shoe img {
+   width: 100%;
+ }
+ .product-details {
+   padding: 20px;
+ }
+ 
+ .additional-images {
+   display: flex;
+   justify-content: center;
+ }
+ 
+ .additional-images img {
+   width: 100px;
+   margin: 10px;
+ }
+
+button {
+  background-color: #007BFF; /* Bootstrap primary color */
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #0c0c0c;
+  color:white ;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+}

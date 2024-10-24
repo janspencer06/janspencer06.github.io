@@ -1,0 +1,90 @@
+body {
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 0;
+   background-color: #f5f5f5; /* Light gray background */
+}
+
+header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: #fff; /* White background */
+   padding: 10px 20px;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+nav ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   display: flex;
+   gap: 20px; /* Use gap for consistent spacing */
+}
+
+nav ul li a {
+   text-decoration: none;
+   color: #333;
+   font-weight: bold; /* Make link text bold */
+}
+
+.logo {
+   height: 50px;
+}
+
+.help-form {
+   max-width: 600px; /* Set a maximum width for better responsiveness */
+   margin: 40px auto; /* Center the form */
+   padding: 30px;
+   background-color: #fff;
+   border-radius: 10px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.help-form h2 {
+   text-align: center;
+   margin-bottom: 20px;
+}
+
+.help-form label {
+   display: block;
+   margin-bottom: 5px;
+}
+
+.help-form input[type="email"],
+.help-form textarea {
+   width: 100%;
+   padding: 10px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+}
+
+.help-form textarea {
+   height: 100px;
+}
+
+.help-form input[type="submit"] {
+   background-color: #007bff;
+   color: #fff;
+   border: none;
+   padding: 10px 20px;
+   border-radius: 5px;
+   cursor: pointer;
+
+}
+
+.help-form input[type="submit"]:hover {
+   background-color: #0069d9;
+}
+
+footer {
+   text-align: center;
+   padding: 10px;
+   background-color: #0c0c0c;
+   color:white ;
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   width: 100%;
+}
